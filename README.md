@@ -2,9 +2,9 @@
 ----
 This is a client-side app based on the Gank website. Users can browse the website through this app.
 
-It used SQlite3 to handle server-side database tasks, Retrofit to process the network requests (such as loading the website’s picture through API), and Material Design for UI.
+It used **SQlite3** to handle server-side database tasks, **Retrofit** to process the network requests (such as loading the website’s picture through API), and **Material Design** for UI.
 
-For now, it realizes the function of Login&Signup and Classified Reading.
+For now, it realizes the function of **Login&Signup** and **Classified Reading**.
 
 However, the speed of online pictures loading needs to be improved.
 
