@@ -1,5 +1,42 @@
-# Gank_api
+# Gank App
 ----
-initial commit:只写了登陆注册和分类阅读，算是出行之前对自己的一个交代
-分类阅读还有很多需要完善，例如图片缓存，进度条style。感觉图片加载这块太慢了，有待完善
-感觉写app会上瘾啊....强迫症
+This is a client-side app based on the Gank website. Users can browse the website through this app.
+
+It used SQlite3 to handle server-side database tasks, Retrofit to process the network requests (such as loading the website’s picture through API), and Material Design for UI.
+
+For now, it realizes the function of Login&Signup and Classified Reading.
+
+However, the speed of online pictures loading needs to be improved.
+
+# File Structure
+
+```bash
+├─.idea
+├─app
+│  └─src
+│      ├─androidTest
+│      ├─main
+│      │  ├─java
+│      │  │  └─com
+│      │  │      └─elainedv
+│      │  │          ├─Classification
+│      │  │          ├─Gank
+│      │  │          ├─Register
+│      │  │          └─Utils
+│      │  └─res
+│      └─test
+└─gradle
+    └─wrapper
+```
+### Register
+
+
+### Classified Reading
+
+
+
+# Dependencies
+- Retrofit + Okhttp (Network request)
+- Gson (Parse JSON data)
+- Realm (Database Operation)
+- Glide (Load pictures online)
