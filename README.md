@@ -8,6 +8,12 @@ For now, it realizes the function of Login&Signup and Classified Reading.
 
 However, the speed of online pictures loading needs to be improved.
 
+# Dependencies
+- Retrofit + Okhttp (Network request)
+- Gson (Parse JSON data)
+- Realm (Database Operation)
+- Glide (Load pictures online)
+
 # File Structure
 
 ```bash
@@ -28,15 +34,9 @@ However, the speed of online pictures loading needs to be improved.
 └─gradle
     └─wrapper
 ```
+# User Interface
+
 ### Register
+![image](https://github.com/ElaineYao/Gank_api/blob/master/Login.png)
 
 
-### Classified Reading
-
-
-
-# Dependencies
-- Retrofit + Okhttp (Network request)
-- Gson (Parse JSON data)
-- Realm (Database Operation)
-- Glide (Load pictures online)
